@@ -20,7 +20,7 @@ Use `rstudy` keyword in place of the `r` keyword (see examples of using `r` keyw
 Use to best effect : 
 "rstudy this" in Google Chrome 
 
-## Credits 
+## Credits
 Jack James http://www.surrealroad.com
 
 alfred-reminders
