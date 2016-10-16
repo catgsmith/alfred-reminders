@@ -1,3 +1,28 @@
+# spaced repetition fork
+
+This adds a feature to  alfred-reminders which will let to add multiple reminders to revise a topic. The intervals between each reminder are based on research 
+which shows that you can improve recall by revising a topic over these intervals: 
+- 1 hour, 5 hours, 1 day, 5 days, 25 days
+and actively recalling what you learnt.
+ see http://www.joethetutor.org/best-study-methods-spaced-repetition/ and Pimsleur's graduated-interval recall https://en.wikipedia.org/wiki/Spaced_repetition.
+
+## Installation
+Clone this repository and copy into .../Application Support/Alfred 2/Alfred.alfredpreferences/workflows/ 
+to the folder containing the master version of the alfred-reminders workflow.
+Create a reminder list called `Study` in the Mac Reminders application.
+<pre>
+git clone https://github.com/catgsmith/alfred-reminders.git
+</pre>
+
+## Usage
+Use `rstudy` keyword in place of the `r` keyword (see examples of using `r` keyword below)
+
+Use to best effect : 
+"rstudy this" in Google Chrome 
+
+## Credits
+Jack James http://www.surrealroad.com
+
 alfred-reminders
 ================
 
@@ -47,3 +72,5 @@ Uses AppleScript implementation of the Workflow object class for Alfred 2 (https
 Uses icons from the Flurry collection by David Lanham / The Icon Factory
 
 Uses Brati's Lover Property List Library (http://applescript.bratis-lover.net/library/plist/)
+
+
