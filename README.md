@@ -1,4 +1,4 @@
-# spaced repetition fork
+# Spaced repetition fork
 
 This adds a feature to  alfred-reminders which will let to add multiple reminders to revise a topic. The intervals between each reminder are based on research 
 which shows that you can improve recall by revising a topic over these intervals: 
@@ -11,7 +11,7 @@ Clone this repository and copy into .../Application Support/Alfred 2/Alfred.alfr
 to the folder containing the master version of the alfred-reminders workflow.
 Create a reminder list called `Study` in the Mac Reminders application.
 <pre>
-git clone https://github.com/catgsmith/alfred-reminders.git
+git clone -b feature/spaced-repetition-study https://github.com/catgsmith/alfred-reminders.git
 </pre>
 
 ## Usage
